@@ -1,0 +1,12 @@
+com\changgou\pojo\Result.class
+com\changgou\pojo\PageResult.class
+com\changgou\pojo\RandomValueUtil.class
+com\changgou\pojo\ChineseUtils.class
+com\changgou\pojo\HttpClient$1.class
+com\changgou\pojo\HttpClient.class
+com\changgou\pojo\IdWorker.class
+com\changgou\pojo\CacheKey.class
+com\changgou\pojo\Message.class
+com\changgou\pojo\StatusCode.class
+com\changgou\pojo\BCrypt.class
+com\changgou\pojo\Page.class

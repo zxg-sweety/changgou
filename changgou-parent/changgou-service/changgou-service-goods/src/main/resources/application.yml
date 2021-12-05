@@ -1,0 +1,24 @@
+server:
+  port: 10086
+eureka:
+  instance:
+    hostname: 127.0.0.1
+    perfer-ip-address: true
+  client:
+    register-with-eureka: false   #是否将自己注册到eureka中
+    fetch-registry: false         #是否从eureka中获取信息
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+spring:
+  application:
+    name: goods
+  datasource:
+    url: jdbc:mysql://192.168.142.132:3306/changgou_goods?useUnicode=true&character=UTF-8&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+
+feign:
+  hystrix:
+    enable: true
+
